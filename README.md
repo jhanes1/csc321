@@ -1,2 +1,2 @@
 # csc321
-Belhaven CSC321
+Belhaven Network Course - CSC321

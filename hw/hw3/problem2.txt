@@ -1,0 +1,31 @@
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp4       0      0  192.168.178.49.53111   108.177.8.155.443      ESTABLISHED
+tcp4       0      0  192.168.178.49.49786   192.30.253.124.443     ESTABLISHED
+tcp4       0      0  192.168.178.49.49723   17.249.60.30.443       ESTABLISHED
+tcp4       0      0  *.22                   *.*                    LISTEN
+tcp6       0      0  *.22                   *.*                    LISTEN
+
+
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp4       0      0  127.0.0.1.5560         127.0.0.1.53122        ESTABLISHED  #Worker
+tcp4       0      0  127.0.0.1.53122        127.0.0.1.5560         ESTABLISHED  #Worker
+tcp4       0      0  127.0.0.1.5559         127.0.0.1.53121        ESTABLISHED  #Client
+tcp4       0      9  127.0.0.1.53121        127.0.0.1.5559         ESTABLISHED  #Client
+tcp4       0      0  *.5560                 *.*                    LISTEN   #Broker Backend
+tcp4       0      0  *.5559                 *.*                    LISTEN   #Broker Frontend
+tcp4       0      0  192.168.178.49.53111   108.177.8.155.443      ESTABLISHED
+tcp4       0      0  192.168.178.49.49786   192.30.253.124.443     ESTABLISHED
+tcp4       0      0  192.168.178.49.49723   17.249.60.30.443       ESTABLISHED
+tcp4       0      0  *.22                   *.*                    LISTEN
+tcp6       0      0  *.22                   *.*                    LISTEN
+
+
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp4       0      0  192.168.178.49.53111   108.177.8.155.443      ESTABLISHED
+tcp4       0      0  192.168.178.49.49786   192.30.253.124.443     ESTABLISHED
+tcp4       0      0  192.168.178.49.49723   17.249.60.30.443       ESTABLISHED
+tcp4       0      0  *.22                   *.*                    LISTEN
+tcp6       0      0  *.22                   *.*                    LISTEN

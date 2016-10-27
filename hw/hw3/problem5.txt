@@ -1,0 +1,26 @@
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp4       0      0  192.168.178.49.49786   192.30.253.124.443     ESTABLISHED
+tcp4       0      0  192.168.178.49.49723   17.249.60.30.443       ESTABLISHED
+tcp4       0      0  *.22                   *.*                    LISTEN
+tcp6       0      0  *.22                   *.*                    LISTEN
+
+
+
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp4       0      0  *.5558                 *.*                    LISTEN     #Interrupt Bind
+tcp4       0      0  192.168.178.49.49786   192.30.253.124.443     ESTABLISHED
+tcp4       0      0  192.168.178.49.49723   17.249.60.30.443       ESTABLISHED
+tcp4       0      0  *.22                   *.*                    LISTEN
+tcp6       0      0  *.22                   *.*                    LISTEN
+
+
+
+ophelia:hw3 jhanes$ netstat -an -p tcp
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
+tcp4       0      0  192.168.178.49.49786   192.30.253.124.443     ESTABLISHED
+tcp4       0      0  192.168.178.49.49723   17.249.60.30.443       ESTABLISHED
+tcp4       0      0  *.22                   *.*                    LISTEN
+tcp6       0      0  *.22                   *.*                    LISTEN

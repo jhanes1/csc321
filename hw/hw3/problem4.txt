@@ -10,7 +10,8 @@ tcp6       0      0  *.22                   *.*                    LISTEN
 Active Internet connections (including servers)
 Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)
 tcp4       0      0  192.168.178.49.53203   192.168.55.210.5556    SYN_SENT   #Proxy Connect
-tcp4       0      0  *.8100                 *.*                    LISTEN     #Proxy Bind (Modified code as 10.1.1.0:8100 couldn't be allocated)
+tcp4       0      0  *.8100                 *.*                    LISTEN     #Proxy Bind
+tcp4       0      0  *.5556                 *.*                    LISTEN     #WeatherServer
 tcp4       0      0  192.168.178.49.49786   192.30.253.124.443     ESTABLISHED
 tcp4       0      0  192.168.178.49.49723   17.249.60.30.443       ESTABLISHED
 tcp4       0      0  *.22                   *.*                    LISTEN
